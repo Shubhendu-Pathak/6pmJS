@@ -1,0 +1,22 @@
+.cards{
+    margin-top: 40px;
+    border: 8px solid blue;
+    height: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards>div{
+    background-color: aqua;
+    height: 85%;
+    width: 25%;
+    margin: 10px;
+}
+@media (max-width:600px){
+    .cards{
+        height: 120vw;
+    }
+    .cards{
+        flex-direction: column;
+    }
+}

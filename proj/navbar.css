@@ -1,0 +1,38 @@
+nav{
+    border: 3px solid red;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+}
+nav>h2{
+    font-size: 2rem;
+}
+nav>ul{
+    /* border: 2px solid blue; */
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+nav>ul>li{
+    border: 1px solid black;
+    font-size: 2.5rem;
+    width: 25%;
+    text-align: center;
+    transform: skewX(25deg);
+    text-transform: uppercase;
+}
+nav>i{
+    font-size: 3rem;
+    visibility: hidden;
+}
+
+@media (max-width:600px){
+    nav>ul{
+        visibility: hidden;
+    }
+    nav>i{
+        visibility: visible;
+    }
+}

@@ -1,0 +1,15 @@
+.banner{
+    border: 2px solid black;
+    margin-top: 4rem;
+    height: 35vw;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/178/887/600/2008-dark-city-fire-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+@media (max-width:600px){
+    .banner{
+background-image: url('https://w0.peakpx.com/wallpaper/315/1012/HD-wallpaper-batman-the-dark-knight-rises-bruce-wayne-christian-bale-thumbnail.jpg');
+    }
+}
